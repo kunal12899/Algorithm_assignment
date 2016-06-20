@@ -1,0 +1,48 @@
+Part A:
+
+//Please note, number of permutations are not given in report, but we have printed the total number of permutations.
+
+For Perumatation :
+
+
+When n=1,2,3......9; after multiple run i got same timing for both algorithm, but in various run  sometime take2 took less time than take3 and visa versa.
+
+(below result for n=9)
+Permutation of numbers Using Take2::
+Time taken : 16 ms
+Total number of permutation 362880
+Permutation of numbers Using Take3/Heap Alogrithm::
+Time taken : 16 ms
+Total number of permutation 362880
+
+
+when n=10, then Heap Algorithm took less time
+
+Permutation of numbers Using Take2::
+Time taken : 343 ms
+Total number of permutation 3628800
+Permutation of numbers Using Take3/Heap Algorithm::
+Time taken : 219 ms
+Total number of permutation 3628800
+
+
+when n=11, then Heap Algorithm took more time.
+Permutation of numbers Using Take2::
+Time taken : 1531 ms
+Total number of permutation 39916800
+Permutation of numbers Using Take3/Heap Alogrithm::
+Time taken : 2063 ms
+Total number of permutation 39916800
+
+
+when n=12, then  Heap Alogrithm took more time. and time taken by both algorithm increased more
+
+Permutation of numbers Using Take2::
+Time taken : 18499 ms
+Total number of permutation 479001600
+Permutation of numbers Using Take3/Heap Algorithm::
+Time taken : 25907 ms
+Total number of permutation 479001600
+
+for n=13 and more it is taking too much time, so I stopped .
+

@@ -1,0 +1,9 @@
+Read Me:
+1. Please enter the input file name as a command line argument or u can also enter the input via the console if your using an IDE.
+2. Please use the input format as given in the problem statement.
+3. Level 1 is complete and working as expected. 
+4. Level 2 has not been worked upon and hence we did not submit LP5Lev2.java
+5. Level 3 is partially completed and Step2 of the algorithm has been completed.
+
+We have tested our code with the given inputs and its analysis can be found in the Report.doc document.
+The algorithm used to find the augmenting path and hence the maximum matches is very similar to the concept that was taught in class with a little of our own tweeks to boost performance.
